@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "TbCopy",
+  "version": "1.0.0",
+  "description": "复制URL",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": ["contextMenus", "tabs", "clipboardWrite"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
